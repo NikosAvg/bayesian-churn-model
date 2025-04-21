@@ -54,25 +54,25 @@ We implemented a Bayesian logistic regression model using CmdStan. The model est
 
 ### Selected Posterior Distributions:
 
-- **Baseline Intercept (\\( \\alpha \\))**:
+- **Baseline Intercept α**:
   ![Alpha](reports/figures/cmdstan_alpha_posterior.png)
 
-- **Tenure (\\( \\beta[2] \\))**:
+- **Tenure β[2]**:
   ![Tenure](reports/figures/cmdstan_beta[2]_posterior.png)
 
-- **Monthly Charges (\\( \\beta[3] \\))**:
+- **Monthly Charges β[3]**:
   ![MonthlyCharges](reports/figures/cmdstan_beta[3]_posterior.png)
 
-- **Total Charges (\\( \\beta[4] \\))**:
+- **Total Charges β[4]**:
   ![TotalCharges](reports/figures/cmdstan_beta[4]_posterior.png)
 
-- **InternetService_Fiber optic (\\( \\beta[11] \\))**:
+- **InternetService_Fiber optic β[11]**:
   ![Fiber Optic](reports/figures/cmdstan_beta[11]_posterior.png)
 
-- **Contract_One year (\\( \\beta[25] \\))**:
+- **Contract_One year β[25]**:
   ![Contract One Year](reports/figures/cmdstan_beta[25]_posterior.png)
 
-- **Contract_Two year (\\( \\beta[26] \\))**:
+- **Contract_Two year β[26]**:
   ![Contract Two Year](reports/figures/cmdstan_beta[26]_posterior.png)
 
 These plots show which features are strongly predictive, and with what degree of certainty.
