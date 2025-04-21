@@ -41,7 +41,7 @@ These show that tenure and total charges are strongly related, while many intern
 
 ## 4. Bayesian Logistic Regression Modeling
 
-We implemented a Bayesian logistic regression model using CmdStan. The model estimates a posterior distribution for each coefficient (\\( \\beta \\)) and the intercept (\\( \\alpha \\)).
+We implemented a Bayesian logistic regression model using CmdStan. The model estimates a posterior distribution for each coefficient β and the intercept α.
 
 ### Benefits:
 - Uncertainty is explicitly captured.
